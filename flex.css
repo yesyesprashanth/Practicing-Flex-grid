@@ -1,0 +1,46 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.word-list{
+    display:flex;
+    flex-flow: row wrap;
+    gap:10px;
+    background-color: lightgreen;
+    width:90vw;
+    padding:5px;
+}
+
+
+.item-data{
+    background-color: lightblue;
+    border-right: 1px solid black;
+    flex-basis:200px;
+}
+
+
+
+
+.flex-container{
+    display:flex;    
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    width:800px; 
+    border-radius: 20px;    
+}
+
+.flex-item {
+    width:200px;
+    height:200px;    
+    border-radius: 20px;
+    margin:20px;
+}
+
+.bg-color{
+    background-color: aqua;
+}
+
+.item-bg-color{
+    background-color: darkorchid;
+}
